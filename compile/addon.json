@@ -1,0 +1,12 @@
+{
+	"title"		:	"gm_crimson_red By MrSandMan",
+	"type"		:	"map",
+    "version"	:	"1",
+	"tags"		:	[ "fun", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}

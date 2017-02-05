@@ -862,3 +862,956 @@ Level flags = 0
 Total triangle count: 64034
 Writing c:\users\mrsandman\documents\github\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
 7 minutes, 9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (3801.00 -7300.00 432.97) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 15360.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 15360.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12800.0 15360.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 12800.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 11776.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 10752.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 644 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (969752 bytes)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (4210.00, -8427.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (4209.00, -8427.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (4210.00, -8427.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (3944.00, -6379.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (3944.00, -6379.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (3944.00, -6379.00, 443.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (4210.00, -5355.00, 443.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (4210.00, -4331.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (3679.00, -4331.00, 443.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (4210.00, -2283.00, 443.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (3945.00, -3306.00, 443.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (4210.00, -3307.00, 443.72)
+Static prop models/concrete_fence_01.mdl outside the map (3959.00, -8081.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3941.00, -7922.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3919.00, -7764.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3888.00, -7608.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3848.00, -7453.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3801.00, -7300.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3718.00, -7168.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3586.00, -7088.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (3431.00, -7059.00, 436.75)
+Static prop models/concrete_fence_01.mdl outside the map (3271.00, -7053.00, 451.53)
+Static prop models/concrete_fence_01.mdl outside the map (4108.00, 5702.00, 428.72)
+Static prop models/concrete_fence_01.mdl outside the map (4111.00, 3787.00, 420.72)
+Static prop models/concrete_fence_01.mdl outside the map (4111.00, 3627.00, 420.72)
+Static prop models/concrete_fence_01.mdl outside the map (4115.00, 3468.00, 420.72)
+Static prop models/concrete_fence_01.mdl outside the map (4111.00, 2670.00, 423.72)
+Static prop models/concrete_fence_01.mdl outside the map (4110.00, 2510.00, 427.72)
+Static prop models/concrete_fence_01.mdl outside the map (4112.00, 2350.00, 427.72)
+Static prop models/props_wasteland/lights_industrialcluster01a.mdl outside the map (3814.40, -3970.30, 825.29)
+Static prop models/concrete_fence_01.mdl outside the map (4171.00, 2225.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (4303.79, 2135.69, 432.97)
+Static prop models/metrostroi/tracks/railroad4096.mdl outside the map (3678.83, 2399.26, 445.94)
+Static prop models/metrostroi/tracks/railroad4096.mdl outside the map (3679.00, 1815.00, 444.72)
+Static prop models/metrostroi/tracks/dead_end.mdl outside the map (3681.00, 6350.00, 445.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (2405.00, 3687.00, 443.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (2405.00, 4711.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (2404.00, 1810.00, 443.95)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (2139.00, 3859.00, 443.72)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (1872.00, 5907.00, 435.35)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (1873.00, 5907.00, 435.35)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (1879.00, 7784.00, 435.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (1783.00, 2586.17, 443.72)
+Static prop models/concrete_fence_01.mdl outside the map (2813.00, 4117.00, 428.72)
+Static prop models/concrete_fence_01.mdl outside the map (2813.00, 4277.00, 425.73)
+Static prop models/concrete_fence_01.mdl outside the map (2813.00, 4437.00, 426.79)
+Static prop models/concrete_fence_01.mdl outside the map (2813.00, 4597.00, 423.80)
+Static prop models/concrete_fence_01.mdl outside the map (2813.00, 4757.00, 420.25)
+Static prop models/concrete_fence_01.mdl outside the map (2813.00, 4916.00, 450.27)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (1609.00, 2730.00, 434.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (1343.00, 5802.00, 433.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (1342.00, 6824.00, 433.72)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (1351.00, 7850.00, 434.72)
+Static prop models/concrete_fence_01.mdl outside the map (1105.00, 2148.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (1102.00, 2308.00, 432.97)
+Static prop models/concrete_fence_01.mdl outside the map (2826.00, 3487.00, 438.80)
+Static prop models/concrete_fence_01.mdl outside the map (2826.00, 3647.00, 438.80)
+Static prop models/concrete_fence_01.mdl outside the map (2822.00, 3807.00, 438.80)
+Static prop models/concrete_fence_01.mdl outside the map (2819.00, 3967.00, 438.80)
+Static prop models/concrete_fence_01.mdl outside the map (2828.00, 3327.00, 438.80)
+Static prop models/concrete_fence_01.mdl outside the map (2815.00, 3168.00, 438.80)
+Static prop models/concrete_fence_01.mdl outside the map (2818.00, 3008.00, 438.80)
+Static prop models/concrete_fence_01.mdl outside the map (2823.00, 2378.00, 434.00)
+Static prop models/concrete_fence_01.mdl outside the map (2823.00, 2538.00, 434.00)
+Static prop models/concrete_fence_01.mdl outside the map (2819.00, 2698.00, 434.00)
+Static prop models/concrete_fence_01.mdl outside the map (2816.00, 2858.00, 434.00)
+Static prop models/concrete_fence_01.mdl outside the map (2825.00, 2218.00, 434.00)
+Static prop models/concrete_fence_01.mdl outside the map (3819.00, -3720.00, 440.14)
+Static prop models/concrete_fence_01.mdl outside the map (3817.00, -3560.00, 440.14)
+Static prop models/concrete_fence_01.mdl outside the map (3820.00, -3400.00, 442.03)
+Static prop models/concrete_fence_01.mdl outside the map (3818.00, -3240.00, 442.03)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2707 texinfos to 2207
+Reduced 186 texdatas to 155 (7384 bytes to 6268)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (2672.00 15402.00 434.72) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 15360.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 15360.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12800.0 15360.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 12800.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 11776.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 10752.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 644 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (970144 bytes)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2707 texinfos to 2207
+Reduced 186 texdatas to 155 (7384 bytes to 6268)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (4093.00 -9981.20 598.91) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 15872.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12800.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 644 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (970568 bytes)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2707 texinfos to 2207
+Reduced 186 texdatas to 155 (7384 bytes to 6268)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (4093.00 -9981.20 598.91) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 15872.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12800.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 644 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (970600 bytes)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2715 texinfos to 2207
+Reduced 186 texdatas to 155 (7384 bytes to 6268)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (4139.00 -9426.00 698.97) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 15872.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12800.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 644 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (970600 bytes)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2715 texinfos to 2207
+Reduced 186 texdatas to 155 (7384 bytes to 6268)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (542.01 1384.69 432.97) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 15872.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12800.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 644 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (970600 bytes)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2715 texinfos to 2207
+Reduced 186 texdatas to 155 (7384 bytes to 6268)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1351.00 9258.96 383.72) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 15872.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12800.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 16384.0 285.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 644 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (970600 bytes)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2715 texinfos to 2207
+Reduced 186 texdatas to 155 (7384 bytes to 6268)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+10 seconds elapsed

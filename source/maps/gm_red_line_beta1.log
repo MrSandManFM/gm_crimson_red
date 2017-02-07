@@ -1815,3 +1815,473 @@ Reduced 2715 texinfos to 2207
 Reduced 186 texdatas to 155 (7384 bytes to 6268)
 Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
 10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-10699.00 -9471.00 443.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 15872.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13312.0 15872.0 -700.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 16384.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13312.0 14848.0 -700.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13312.0 13824.0 -700.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 642 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (910926 bytes)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-10831.50, -7422.99, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (-10832.50, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-10831.50, -7422.99, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-11115.50, -5376.99, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_3a.mdl outside the map (-10566.00, -7422.98, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_2.mdl outside the map (-10567.00, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-10567.00, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-10336.00, -5371.00, 443.00)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn3.mdl outside the map (1180.00, -13545.00, -188.78)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn2.mdl outside the map (1180.00, -13545.00, -188.78)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4245.52, -9457.00, 87.91)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4249.34, -8433.92, 114.39)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4252.12, -7412.92, 141.65)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4254.00, -6391.25, 186.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4256.00, -5369.00, 231.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4258.00, -4347.00, 276.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4261.00, -3326.00, 329.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4264.00, -2304.00, 373.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4268.00, -1282.00, 408.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4272.00, -260.00, 435.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4276.00, 763.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4280.00, 1785.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4280.00, 2809.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn1_beta.mdl outside the map (4280.00, 2809.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn2_beta.mdl outside the map (4279.00, 2810.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn3_beta.mdl outside the map (4278.00, 2811.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (182.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (-842.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (-1866.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn1_beta.mdl outside the map (-1866.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn2_beta.mdl outside the map (-1867.00, 5881.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn3_beta.mdl outside the map (-1868.00, 5880.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-4940.00, 764.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (-4939.00, 764.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-4674.00, -1284.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-4940.00, -1283.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-4940.00, 764.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-4674.00, -1284.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_2.mdl outside the map (-4940.00, -1283.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_3a.mdl outside the map (-5205.00, -5379.00, 439.61)
+Static prop models/metrostroi/tracks/switch4096i_3a.mdl outside the map (-5023.61, -3691.58, 440.61)
+Static prop models/metrostroi/tracks/switch4096i_3c.mdl outside the map (-4941.00, -1283.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_3c.mdl outside the map (-5949.00, -5377.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-4674.00, -3332.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-4674.00, -4356.00, 443.00)
+Static prop models/mus/subwaystation/platform_support.mdl outside the map (-4758.83, -8257.00, 467.78)
+Static prop models/mus/subwaystation/platform_support.mdl outside the map (-4758.83, -6733.01, 467.78)
+Static prop models/mus/subwaystation/platform_support.mdl outside the map (-4758.83, -9281.00, 467.78)
+Static prop models/metrostroi/tracks/railroad4096.mdl outside the map (-4674.00, -9476.00, 443.00)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5207.00, -6182.00, 516.76)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5207.00, -6118.00, 516.76)
+Static prop models/mus/subwaystation/metal_platform.mdl outside the map (-4776.00, -6278.48, 451.17)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5209.00, -6263.00, 526.26)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5209.00, -6328.00, 526.26)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-4749.81, -6262.48, 526.00)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-4746.00, -6180.00, 519.00)
+Static prop models/metro/stair_front.mdl outside the map (-4937.00, -5915.00, 433.00)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9797.00, 445.41)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9957.00, 442.42)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -10117.00, 443.48)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8518.00, 426.00)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8678.00, 423.01)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8838.00, 424.07)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8998.00, 421.09)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9158.00, 417.53)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9317.00, 447.55)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9477.00, 448.60)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9637.00, 445.62)
+Static prop models/concrete_fence_01.mdl outside the map (-4435.00, -7888.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4435.00, -8048.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4431.00, -8208.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4428.00, -8368.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4437.00, -7728.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4424.00, -7569.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4427.00, -7409.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4432.00, -6779.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4432.00, -6939.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4428.00, -7099.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4425.00, -7259.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4434.00, -6619.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4421.00, -6460.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4424.00, -6300.00, 431.28)
+Static prop models/metrostroi/tracks/railroad512_connection.mdl outside the map (-5288.00, -5737.00, 442.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-5950.00, -5377.00, 443.00)
+Static prop models/concrete_fence_01.mdl outside the map (-5823.00, -5443.00, 441.03)
+Static prop models/concrete_fence_01.mdl outside the map (-5823.00, -5603.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-5821.00, -5763.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-5814.00, -5925.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6089.00, -5439.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6090.00, -5599.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6089.00, -5758.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6090.00, -5918.00, 434.22)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-3664.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (-3664.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3c.mdl outside the map (-4673.00, -1284.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3c.mdl outside the map (-3665.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-3664.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-3664.00, -5376.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3399.00, -7426.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3664.00, -8448.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3664.00, -9472.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3399.00, -8450.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn1.mdl outside the map (-10699.00, -9471.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn2.mdl outside the map (-10699.00, -9471.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn3.mdl outside the map (-10699.00, -9471.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn1.mdl outside the map (-7115.00, -13055.00, 443.00)
+Static prop models/metrostroi/tracks/cross4096.mdl outside the map (-10831.00, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-10849.00, -4351.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-10603.00, -5377.00, 443.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2435 texinfos to 1956
+Reduced 172 texdatas to 141 (7159 bytes to 6043)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "cyber_metrostroi/ptu/lamp" not found.
+Material not found!: CYBER_METROSTROI/PTU/LAMP
+material "metrostroi/props/metalhull010b" not found.
+Material not found!: METROSTROI/PROPS/METALHULL010B
+material "cyber_metrostroi/vor/vor_met_2" not found.
+Material not found!: CYBER_METROSTROI/VOR/VOR_MET_2
+material "cyber_metrostroi/vor/marble1" not found.
+Material not found!: CYBER_METROSTROI/VOR/MARBLE1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_red_line_beta1/metrostroi_nature/blendnature002_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-10699.00 -9471.00 443.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 15872.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13312.0 15872.0 -700.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13824.0 16384.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 14848.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15360.0 13824.0 -700.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13312.0 14848.0 -700.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (13312.0 13824.0 -700.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 642 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/starrynight*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (911478 bytes)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-10831.50, -7422.99, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (-10832.50, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-10831.50, -7422.99, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-11115.50, -5376.99, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_3a.mdl outside the map (-10566.00, -7422.98, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_2.mdl outside the map (-10567.00, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-10567.00, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-10336.00, -5371.00, 443.00)
+Error! To use model "models/mus/metro/kronstein.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/kronstein.mdl"!
+Error! To use model "models/mus/metro/station_phonebox_3.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/mus/metro/station_phonebox_3.mdl"!
+Error loading studio model "models/props_mill/mill_railing_128.mdl"!
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn3.mdl outside the map (1180.00, -13545.00, -188.78)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn2.mdl outside the map (1180.00, -13545.00, -188.78)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4245.52, -9457.00, 87.91)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4249.34, -8433.92, 114.39)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4252.12, -7412.92, 141.65)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4254.00, -6391.25, 186.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4256.00, -5369.00, 231.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4258.00, -4347.00, 276.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4261.00, -3326.00, 329.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4264.00, -2304.00, 373.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4268.00, -1282.00, 408.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4272.00, -260.00, 435.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4276.00, 763.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4280.00, 1785.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (4280.00, 2809.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn1_beta.mdl outside the map (4280.00, 2809.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn2_beta.mdl outside the map (4279.00, 2810.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn3_beta.mdl outside the map (4278.00, 2811.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (182.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (-842.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel1024_rect_beta.mdl outside the map (-1866.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn1_beta.mdl outside the map (-1866.00, 5882.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn2_beta.mdl outside the map (-1867.00, 5881.00, 443.00)
+Static prop models/metrostroi/tracks/tunnel3072_rect_turn3_beta.mdl outside the map (-1868.00, 5880.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-4940.00, 764.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (-4939.00, 764.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-4674.00, -1284.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-4940.00, -1283.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-4940.00, 764.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-4674.00, -1284.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_2.mdl outside the map (-4940.00, -1283.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_3a.mdl outside the map (-5205.00, -5379.00, 439.61)
+Static prop models/metrostroi/tracks/switch4096i_3a.mdl outside the map (-5023.61, -3691.58, 440.61)
+Static prop models/metrostroi/tracks/switch4096i_3c.mdl outside the map (-4941.00, -1283.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096i_3c.mdl outside the map (-5949.00, -5377.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-4674.00, -3332.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-4674.00, -4356.00, 443.00)
+Static prop models/mus/subwaystation/platform_support.mdl outside the map (-4758.83, -8257.00, 467.78)
+Static prop models/mus/subwaystation/platform_support.mdl outside the map (-4758.83, -6733.01, 467.78)
+Static prop models/mus/subwaystation/platform_support.mdl outside the map (-4758.83, -9281.00, 467.78)
+Static prop models/metrostroi/tracks/railroad4096.mdl outside the map (-4674.00, -9476.00, 443.00)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5207.00, -6182.00, 516.76)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5207.00, -6118.00, 516.76)
+Static prop models/mus/subwaystation/metal_platform.mdl outside the map (-4776.00, -6278.48, 451.17)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5209.00, -6263.00, 526.26)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-5209.00, -6328.00, 526.26)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-4749.81, -6262.48, 526.00)
+Static prop models/props_c17/handrail04_medium.mdl outside the map (-4746.00, -6180.00, 519.00)
+Static prop models/metro/stair_front.mdl outside the map (-4937.00, -5915.00, 433.00)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9797.00, 445.41)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9957.00, 442.42)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -10117.00, 443.48)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8518.00, 426.00)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8678.00, 423.01)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8838.00, 424.07)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -8998.00, 421.09)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9158.00, 417.53)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9317.00, 447.55)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9477.00, 448.60)
+Static prop models/concrete_fence_01.mdl outside the map (-4422.00, -9637.00, 445.62)
+Static prop models/concrete_fence_01.mdl outside the map (-4435.00, -7888.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4435.00, -8048.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4431.00, -8208.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4428.00, -8368.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4437.00, -7728.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4424.00, -7569.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4427.00, -7409.00, 436.08)
+Static prop models/concrete_fence_01.mdl outside the map (-4432.00, -6779.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4432.00, -6939.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4428.00, -7099.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4425.00, -7259.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4434.00, -6619.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4421.00, -6460.00, 431.28)
+Static prop models/concrete_fence_01.mdl outside the map (-4424.00, -6300.00, 431.28)
+Static prop models/metrostroi/tracks/railroad512_connection.mdl outside the map (-5288.00, -5737.00, 442.00)
+Static prop models/metrostroi/tracks/switch4096i_1.mdl outside the map (-5950.00, -5377.00, 443.00)
+Static prop models/concrete_fence_01.mdl outside the map (-5823.00, -5443.00, 441.03)
+Static prop models/concrete_fence_01.mdl outside the map (-5823.00, -5603.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-5821.00, -5763.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-5814.00, -5925.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6089.00, -5439.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6090.00, -5599.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6089.00, -5758.00, 434.22)
+Static prop models/concrete_fence_01.mdl outside the map (-6090.00, -5918.00, 434.22)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-3664.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3a.mdl outside the map (-3664.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3c.mdl outside the map (-4673.00, -1284.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_3c.mdl outside the map (-3665.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_1.mdl outside the map (-3664.00, -5378.00, 443.00)
+Static prop models/metrostroi/tracks/switch4096_2.mdl outside the map (-3664.00, -5376.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3399.00, -7426.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3664.00, -8448.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3664.00, -9472.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-3399.00, -8450.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn1.mdl outside the map (-10699.00, -9471.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn2.mdl outside the map (-10699.00, -9471.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn3.mdl outside the map (-10699.00, -9471.00, 443.00)
+Static prop models/metrostroi/tracks/railroad3072_turn1.mdl outside the map (-7115.00, -13055.00, 443.00)
+Static prop models/metrostroi/tracks/cross4096.mdl outside the map (-10831.00, -7423.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-10849.00, -4351.00, 443.00)
+Static prop models/metrostroi/tracks/railroad1024_plain.mdl outside the map (-10603.00, -5377.00, 443.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2445 texinfos to 1956
+Reduced 172 texdatas to 141 (7159 bytes to 6043)
+Writing C:\Users\MrSandMan\Documents\GitHub\gm_crimson_red\source\maps\gm_red_line_beta1.bsp
+14 seconds elapsed

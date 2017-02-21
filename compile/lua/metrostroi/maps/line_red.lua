@@ -17,22 +17,24 @@ Metrostroi.Skins["717_schemes"]["m"] = {
 --[НОМЕР] = {НАЗВАНИЕ,ПРАВАЯ СТОРОНА,ВЕЖЛИВОСТЬ,ВЕЩИ,ПРИСЛНОЯТЬСЯ К ДВЕРЯМ,ИМЕЕТ В НАЗВАНИИ "СТАНЦИЯ",СТАНЦИЯ ПЕРЕХОДА,СТАНЦИЯ РАЗДЕЛЕНИЯ,НЕ КОНЕЧНАЯ(развернуть информатор)}
 Metrostroi.AnnouncerData =
 {
+    [500] = {"Yungorodok",false,false,false,false,0},
 	[501] = {"Aeroport",false,true,0,false,false,{799,0235,799}},
 	[502] = {"Fabriki SENT",true,false,false,true,false,0},
 	[503] = {"Litievaya",false,true,false,false,false,{799,0235,799}},
-	--[504] = {"Metrostroiteley",false,false,false,true,false,0},
+	[504] = {"Metrostroiteley",false,false,false,true,false,0},
 }
 Metrostroi.AnnouncerTranslate =
 {
+    [500] = "Юнгородок"
 	[501] = "Аэропорт",
 	[502] = "Фабрики СЕНТ",
 	[503] = "Литиевая",
-	--[504] = "Метростроителей",
+	[504] = "Метростроителей",
 }
 Metrostroi.WorkingStations = {
-	{501,502,503},
+	{500,501,502,503,504},
 }
 
 Metrostroi.EndStations = {
-	{501,503},
+	{500,501,503,504},
 }
